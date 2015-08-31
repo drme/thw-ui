@@ -23,11 +23,7 @@ The basing library usage is as follows:
 * create desktop (var desktop = uiEngine.NewDeskop());
 * create window (desktop.NewWindow(“1.window.xml”);
 * render desktop in your rendering loop (desktop.Render());
-* pass mouse, keyboard events to desktop object:
-desktop.MouseMove()
-desktop.MousePress()
-desktop.MouseRelease()
-desktop.KeyPress()
+* pass mouse, keyboard events to desktop object: using desktop.MouseMove(), desktop.MousePress(), desktop.MouseRelease(), and desktop.KeyPress().
 
 ## Render
 This is only one interface which has to be implemented by library user.
@@ -40,32 +36,26 @@ There are several sample imementations:
 
 ## Creating Desktop.
 All windows in user interface are grouped in Desktops (usually one is sufficient for an application, thus more can be used).
-Desktop desktop = uiEngine.NewDesktop();
- Desktop could be created empty or loaded from xml file by passing parameter to NewDesktop method.
+Desktop desktop = uiEngine.NewDesktop(); Desktop could be created empty or loaded from xml file by passing parameter to NewDesktop method.
 
 ## Adding window to the desktop
-New window is created and added to desktop by calling deskop.NewWindow() method.
- Window can be created empty or loaded from xml file by passing file name to NewWindow method.
+New window is created and added to desktop by calling deskop.NewWindow() method. Window can be created empty or loaded from xml file by passing file name to NewWindow method.
 
 ## Adding controls to window
 Controls can be created by calling windows method CreateControl and passing  controls type as parameter
 Button button = window.CreateControl<Button>() and after creation control has to be added to required parent:
-•	adding to window window.AddControl(button);
-•	adding to panel panel.AddControl(button);
+*	adding to window window.AddControl(button);
+*	adding to panel panel.AddControl(button);
 Detailed example is provided in the ThwUIDemo projects file XNADemo.cs.
 
 ## Creating Windows from XML files.
-For creating windows using XML, use ThwUIDesigned project for creating windows using editor.
- Created window can be later loaded using
-Window window = desktop.NewWindow("mywindow.window.xml");
+For creating windows using XML, use ThwUIDesigned project for creating windows using editor. Created window can be later loaded using Window window = desktop.NewWindow("mywindow.window.xml");
 
 ## Rendering User interface
-In order to render user interface developer has to add.
-Desktop.Render(); method call into the application rendering loop.
+In order to render user interface developer has to add Desktop.Render(); method call into the application rendering loop.
 
 ## Responding to user events.
-In order to handle mouse clicks, key presses it is required to call Desktop methods MousePresse, MouseReleases, KeyPressed, etc..
- Detailed examples are provided in ThwUIDemo project.
+In order to handle mouse clicks, key presses it is required to call Desktop methods MousePresse, MouseReleases, KeyPressed, etc. Detailed examples are provided in ThwUIDemo project.
 
 ## User interface Internationalization.
 User interface supports internalization. Thus text messages can be changed according required language. In order to use this feature, ILanguage interface has to be implemented and its instance has to be assigned to uiEngine.Language property.
