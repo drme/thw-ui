@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<theme name="Windows" skinned="false" >
+
+	<menu
+		hasShadow="false"
+		hasSimpleMenu="true"
+		popUpBackColor="Control"
+		hasIconPlaceholderImage="true"
+		hasPopUpBackImage="false"
+	 />
+
+	<colors
+		ControlLight=""
+		ControlDark=""
+		ControlDarkDark=""
+		Control=""
+		Highlight="#10,36,106,255"
+		HighlightBorder="#10,36,106,255"
+		TextDark=""
+		TextLight=""
+		BackLight=""
+		BackBorder=""
+		BackLightLight=""
+		BorderDark=""
+		WindowTitleStart="Blue"
+		WindowTitleEnd="Control"
+		Window="White"
+	/>
+
+	<borders>
+
+		<border control="control" folder="control" bordersFolder="control/borders" />
+		<border control="button" folder="button" />
+		<border control="window" folder="window" />
+		<border control="textBox" folder="control" backColor="Window" />
+		<border control="comboBox" folder="comboBox" backColor="Window" />
+		<border control="checkBox" folder="checkBox" backColor="Window" />
+		<border control="scrollBar" folder="scrollBar" />
+		<border control="anchorChooser" folder="window" bordersFolder="window/borders" />
+		<border control="fileChooser" folder="window" bordersFolder="window/borders" />
+		<border control="colorChooser" folder="window" bordersFolder="window/borders" />
+		<border control="messageBox" folder="window" bordersFolder="window/borders" />
+		<border control="menu" folder="menu" />
+		<!--
+			unspecified will default to :
+			folder -> control
+			bordersFolder -> control/borders
+			backColor -> Control
+			borderLight1 -> ControlLight
+			borderLight2 -> Control
+			borderDark1 -> ControlDark
+			borderDark2 -> ControlDarkDark
+			skinned -> default theme value
+			backImage -> ""
+			
+		 -->
+		
+	</borders>
+
+</theme>

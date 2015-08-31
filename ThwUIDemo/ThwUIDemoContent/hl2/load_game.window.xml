@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window
+	minWidth="510"
+	minHeight="400"
+	icon="ui/common/icon_file_chooser" anchor="5" backImage="" height="400"
+	hasShadow="true"
+	text="#Save Game"
+	transparent="false"
+	width="510"
+  centerDesktop="true"  
+>
+
+<button
+		anchor="10"
+		backColor="#0,0,0,0"
+		height="23" minHeight="0" minWidth="0"
+		name="btnCancel"
+		text="Cancel"
+		transparent="false"
+		width="75"
+		x="420"
+		y="350"
+		text.color="Black"
+    dialogResult	= "cancel"
+	/>
+
+	<scrollPanel
+		backColor="#255,255,255,0"
+		borderStyle="Lowered"
+		name="spLog"
+		anchor="15"
+		backImage=""
+		height="342"
+		text=""
+		transparent="false"
+		width="498"
+		x="7"
+		y="5"
+	>
+
+	<infoPanel
+		backColor="#0,0,0,0"
+		backImage=""
+		height="120"
+		minHeight="0"
+		minWidth="0"
+		name="ep1"
+		text=""
+		transparent="false"
+		width="470"
+		x="4"
+		y="4"
+		infoImage="hl2/s3"
+		infoTitle="Episode 2"
+		infoSubTitle="2010-01-01 15:00"
+		infoComment=""
+		cursor="PointerHand"
+	/>
+
+	<infoPanel
+		backColor="#0,0,0,0"
+		backImage=""
+		height="120"
+		minHeight="0"
+		minWidth="0"
+		name="ep1"
+		text=""
+		transparent="false"
+		width="470"
+		x="4"
+		y="128"
+		infoImage="hl2/s3"
+		infoTitle="Episode 3"
+		infoSubTitle="2015-01-01 11:11"
+		infoComment=""
+		cursor="PointerHand"
+	/>
+
+	
+
+	</scrollPanel>
+
+
+</window>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<font
+  name        = "Small"
+  charWidth   = "8"
+  charHeight  = "16"
+  texWidth    = "8"
+  texHeight   = "16"
+  texture     = "ui/fonts/small0"
+  rowWidth    = "16"
+  rowHeight   = "16"      
+      
+      >
+
+	<texture layer="0" texture="ui/fonts/small0" />
+
+	<letter char="a" width="6" height="16" />
+	<letter char="b" width="6" height="16" />
+	<letter char="c" width="5" height="16" />
+	<letter char="d" width="6" height="16" />
+	<letter char="e" width="6" height="16" />
+	<letter char="f" width="4" height="16" />
+	<letter char="g" width="6" height="16" />
+	<letter char="h" width="6" height="16" />
+	<letter char="i" width="2" height="16" />
+	<letter char="j" width="3" height="16" />
+	<letter char="k" width="6" height="16" />
+	<letter char="l" width="2" height="16" />
+	<letter char="m" width="8" height="16" />
+	<letter char="n" width="6" height="16" />
+	<letter char="o" width="6" height="16" />
+	<letter char="p" width="6" height="16" />
+	<letter char="q" width="6" height="16" />
+	<letter char="r" width="4" height="16" />
+	<letter char="s" width="5" height="16" />
+	<letter char="t" width="4" height="16" />
+	<letter char="u" width="6" height="16" />
+	<letter char="v" width="6" height="16" />
+	<letter char="w" width="8" height="16" />
+	<letter char="x" width="6" height="16" />
+	<letter char="y" width="6" height="16" />
+	<letter char="z" width="5" height="16" />
+	<letter char="A" width="7" height="16" />
+	<letter char="B" width="6" height="16" />
+	<letter char="C" width="7" height="16" />
+	<letter char="D" width="7" height="16" />
+	<letter char="E" width="6" height="16" />
+	<letter char="F" width="6" height="16" />
+	<letter char="G" width="7" height="16" />
+	<letter char="H" width="7" height="16" />
+	<letter char="I" width="4" height="16" />
+	<letter char="J" width="5" height="16" />
+	<letter char="K" width="6" height="16" />
+	<letter char="L" width="5" height="16" />
+	<letter char="M" width="8" height="16" />
+	<letter char="N" width="7" height="16" />
+	<letter char="O" width="8" height="16" />
+	<letter char="P" width="6" height="16" />
+	<letter char="Q" width="8" height="16" />
+	<letter char="R" width="7" height="16" />
+	<letter char="O" width="8" height="16" />
+	<letter char="S" width="6" height="16" />
+	<letter char="O" width="8" height="16" />
+	<letter char="T" width="6" height="16" />
+	<letter char="U" width="7" height="16" />
+	<letter char="V" width="6" height="16" />
+	<letter char="W" width="10" height="16" />
+	<letter char="Y" width="6" height="16" />
+	<letter char="X" width="6" height="16" />
+	<letter char="Z" width="6" height="16" />
+	<letter char="0" width="6" height="16" />
+	<letter char="1" width="4" height="16" />
+	<letter char="2" width="6" height="16" />
+	<letter char="3" width="6" height="16" />
+	<letter char="4" width="6" height="16" />
+	<letter char="5" width="6" height="16" />
+	<letter char="6" width="6" height="16" />
+	<letter char="7" width="6" height="16" />
+	<letter char="8" width="6" height="16" />
+	<letter char="9" width="6" height="16" />
+
+	<letter code="33" width="2" height="16" />
+  <letter code="34" width="4" height="16" />
+  <letter code="35" width="8" height="16" />
+  <letter code="36" width="6" height="16" />
+  <letter code="37" width="11" height="16" />
+  <letter code="38" width="8" height="16" />
+  <letter code="39" width="2" height="16" />
+  <letter code="40" width="4" height="16" />
+  <letter code="41" width="4" height="16" />
+  <letter code="42" width="6" height="16" />
+  <letter code="43" width="8" height="16" />
+  <letter code="44" width="3" height="16" />
+  <letter code="45" width="4" height="16" />
+  <letter code="46" width="3" height="16" />
+  <letter code="47" width="4" height="16" />
+  <letter code="58" width="3" height="16" />
+  <letter code="59" width="3" height="16" />
+  <letter code="60" width="7" height="16" />
+  <letter code="61" width="8" height="16" />
+  <letter code="62" width="7" height="16" />
+  <letter code="63" width="5" height="16" />
+  <letter code="64" width="10" height="16" />
+  <letter code="91" width="4" height="16" />
+	<letter code="92" width="4" height="16" />
+  <letter code="93" width="4" height="16" />
+  <letter code="94" width="8" height="16" />
+  <letter code="95" width="7" height="16" />
+  <letter code="96" width="3" height="16" />
+	<letter char="{" width="5" height="16" />
+	<letter char="|" width="2" height="16" />
+	<letter char="}" width="5" height="16" />
+  <letter char="~" width="8" height="16" />
+  <letter char=" " width="4" height="16" />
+
+</font>

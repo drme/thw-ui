@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="../info/info.xsl"?>
+
+<folder>
+	<comment>
+	User interface components. Mainly textures and shaders.
+	themes - user interface differet themes.
+	fonts - availaible fonts library.
+	common - common user interface dialogs.
+	shadow - shadow textures for windows and other user interface components.
+	</comment>
+</folder>

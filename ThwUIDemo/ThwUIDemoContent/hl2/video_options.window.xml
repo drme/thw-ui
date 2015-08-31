@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<window backColor="Control" height="400" icon="ui/common/icon_file_chooser" minHeight="270" minWidth="300" text="Gamma" 
+        width="300" modal="true" centerDesktop="true" hasShadow="true">
+
+	<propertyGrid anchor="15" x="5" y="3" height="345" width="290" valueText="Value" showPlus="true" showGroupLine="true" showRowsSeparator="true" showSideBar="true" rowHeight="16">
+					<propertyGroup text="Window">
+						<propertyRow text="Refresh rate" icon.color="#105,163,25,255" icon="g_ui/icons/a"/>
+						<propertyRow text="Color bits"/>
+						<propertyRow text="Z bits"/>
+						<propertyRow text="Stencil bits"/>
+					</propertyGroup>
+				</propertyGrid>
+
+
+  <button anchor="10" height="24" text="Cancel" width="75" x="219" y="350" dialogResult="cancel" />
+  <button anchor="10" height="24" text="Ok" width="75" x="140" y="350" dialogResult="ok"/>
+
+</window>

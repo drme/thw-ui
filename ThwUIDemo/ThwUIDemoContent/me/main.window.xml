@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<window name="" x="0" y="0" width="800" height="600" borderStyle="None" backImage="me/me_back" backImageLayout="ImageLayoutStretch" moveable="False" sizeable="False">
+  <menuRibbon x="20" y="2" width="200" height="597" text="Story" name="story">
+    <button text="New game" tabStop = "true" tabIndex	= "1"/>
+  </menuRibbon>
+  <menuRibbon x="220" y="2" width="200" height="597" text="Options" name="options">
+    <button text="Graphics" tabStop = "true" tabIndex	= "2"/>
+    <button text="Audio"  tabStop = "true" tabIndex	= "3"/>
+    <button text="Control"  tabStop = "true" tabIndex	= "4"/>
+  </menuRibbon>
+  <menuRibbon x="420" y="1" width="200" height="597" text="Extra" name="extra">
+    <button text="Credits"  tabStop = "true" tabIndex	= "5"/>
+  </menuRibbon>
+  <button x="610" y="533" width="169" height="40" text="Quit" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255" borderStyle="None" onClick="demo.close"  tabStop = "true" tabIndex	= "6"/>
+</window>

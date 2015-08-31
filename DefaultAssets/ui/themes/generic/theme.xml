@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<theme
+	name						= "Generic"
+	skinned						= "true"
+>
+
+	<window
+		windowBorderSize			= "4"
+		windowBorderOffset			= "2"
+		windowSplitImagePosition	= "59"
+		windowSplitWidth			= "32"
+		windowTitleHeight			= "22"
+		windowSplitPosition			= "175"
+		windowShadowSize			= "8"
+	/>
+
+	<menu
+		hasShadow				= "true"
+		hasSimpleMenu			= "false"
+		popUpBackColor			= "#255,251,247,255"
+		hasIconPlaceholderImage	= "true"
+		hasPopUpBackImage		= "false"
+	 />
+
+	<colors
+		ControlLight		= "#255,255,255,255"
+		ControlDark			= "#128,128,128,255"
+		ControlDarkDark		= "#64,64,64,255"
+		Control				= "#212,208,200,255"
+		Highlight			= ""
+		HighlightBorder		= ""
+		TextDark			= ""
+		TextLight			= ""
+		BackLight			= ""
+		BackBorder			= ""
+		BackLightLight		= ""
+		BorderDark			= ""
+		WindowTitleStart	= "#127,127,127,255"
+		WindowTitleEnd		= "#91,91,91,255"
+		Window				= "White"
+	/>
+
+	<borders>
+
+		<border
+			control			= "control" 
+			bordersFolder	= "control/borders" 
+		/>
+		
+		<border
+			control			= "button"
+			imagesPrefix	= "images/button_"
+			borderWidth		= "2"
+			backColor		= ""
+			borderLight1	= "#132,130,132,255"
+			borderLight2	= "White"
+			borderDark1		= "#188,189,188,255"
+			borderDark2		= "#132,130,132,255"
+			backImage		= "images/button_back"
+		/>
+
+		<border
+			control			= "textBox"
+			backColor		= "Window"
+		/>
+
+		<border
+			control			= "comboBox"
+			backColor		= "Window"
+		/>
+
+		<border
+			control			= "checkBox"
+			backColor		= "Window"
+		/>
+
+		<!--
+			unspecified will default to :
+			backColor -> Control
+			borderLight1 -> ControlLight
+			borderLight2 -> Control
+			borderDark1 -> ControlDark
+			borderDark2 -> ControlDarkDark
+			backImage -> ""
+			
+		 -->
+		
+	</borders>
+
+</theme>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<theme name="ac" skinned="true" defaultfont="Tahoma">
+
+  <window
+    windowBorderSize			    = "4"
+    windowBorderOffset			  = "2"
+		windowSplitImagePosition  = "59"
+		windowSplitWidth			    = "32"
+		windowTitleHeight			    = "22"
+		windowSplitPosition			  = "175"
+		windowShadowSize			    = "8"
+	/>
+
+  <colors
+		_ControlLight		= "#255,255,255,255"
+		_ControlDark			= "#128,128,128,255"
+		_ControlDarkDark		= "#64,64,64,255"
+		_Control				= "#212,208,200,255"
+    
+    
+    
+    Highlight         = "None"
+    HighlightBorder         = "None"
+    
+    
+		_TextDark			= ""
+		_TextLight			= ""
+		
+    _BackLight			= ""
+		_BackBorder			= ""
+		_BackLightLight		= ""
+		_BorderDark			= ""
+    
+		_WindowTitleStart	= "#127,127,127,255"
+		_WindowTitleEnd		= "#91,91,91,255"
+		_Window				= "White"
+	/>
+
+  
+  
+  <controls>
+
+    <!-- border
+			control			= "control" 
+			bordersFolder	= "control/borders" 
+		/ --> 
+
+    <control
+			control			    = "button"
+			imagesPrefix	  = "images/button_"
+			borderWidth		  = "2"
+			backColor		    = "White"
+			_backImage	    = "images/button_back"
+		/>
+
+    <!-- border
+			control     = "label"
+			backColor		= "None"
+      backImage   = ""
+		/>
+
+    <border
+			control     = "panel"
+			backColor		= "None"
+      backImage   = ""
+		/>
+
+    <border
+			control			= "textBox"
+			backColor		= "White"
+		/-->
+
+    <control
+      control			  = "checkBox"
+			backColor		  = "White"
+      controlSize   = "13"
+		/>
+
+  </controls>
+
+</theme>

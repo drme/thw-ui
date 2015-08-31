@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window
+	backColor="Control"
+	opacity="0.8"
+	minWidth="510"
+	minHeight="400"
+	anchor="5"
+	height="400"
+	hasShadow="true"
+	text="New Game"
+	width="510"
+	x="200"
+	y="100"
+	modal="true"
+>
+
+	<button
+		anchor="10"
+		height="23" minHeight="0" minWidth="0"
+		name="btnCancel"
+		text="Cancel"
+		width="85"
+		x="420"
+		y="350"
+		dialogResult="cancel"
+		opacity="0.5"
+	/>
+
+	<button
+		anchor="10"
+		height="23" minHeight="0" minWidth="0"
+		name="btnStart"
+		text="Start"
+		width="85"
+		x="330"
+		y="350"
+		dialogResult="ok"
+		opacity="0.5"
+	/>
+
+
+	<scrollPanel
+		backColor="#255,255,255,0"
+		borderStyle="Lowered"
+		name="spLog"
+		anchor="15"
+		backImage=""
+		height="342"
+		text=""
+		transparent="false"
+		width="498"
+		x="7"
+		y="5"
+	>
+
+	<infoPanel
+		backColor="#0,0,0,0"
+		backImage=""
+		height="120"
+		minHeight="0"
+		minWidth="0"
+		name="ep1"
+		text=""
+		transparent="false"
+		width="470"
+		x="4"
+		y="4"
+		infoImage="hl2/s1"
+		infoTitle="The crash"
+		infoSubTitle="Nul beison de s'alarmer"
+		infoComment=""
+		cursor="PointerHand"
+	/>
+
+	<infoPanel
+		backColor="#0,0,0,0"
+		backImage=""
+		height="120"
+		minHeight="0"
+		minWidth="0"
+		name="ep1"
+		text=""
+		transparent="false"
+		width="470"
+		x="4"
+		y="128"
+		infoImage="hl2/s2"
+		infoTitle="The explosion"
+		infoSubTitle="Intervention directe"
+		infoComment=""
+		cursor="PointerHand"
+	/>
+
+	</scrollPanel>
+
+</window>

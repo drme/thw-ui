@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<window moveable="false" sizeable="false" borderStyle="None" backColor="None" width="640" height="480" x="0" y="0" name="main_menu">
+
+  <panel x="70" y="30" width="500" height="350" anchor="7" name="mainPanel" backColor="None">
+
+    <label anchor="7" text="Game UI Demos" width="500" height="70" x="0" y="20" font.bold="true" font.name="Arial" font.size="40" text.align="MiddleCenter" text.color="White"/>
+    <panel name="line1" anchor="7" backColor="White" opacity="0.5" width="500" height="3" x="0" y="90"/>
+
+    <button
+			borderStyle	= "None" backColor="None" backImage="" text="Half-Life" width="300" height="28" x="10" y="150" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand"
+			tabStop		= "true"
+			tabIndex	= "1"
+      name      = "hl2.demo"
+		/>
+
+    <button
+			borderStyle="None" backColor="None" backImage="" text="Assassin's Creed" width="300" height="28" x="10" y="180" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand"
+			tabStop		= "true"
+			tabIndex	= "2"
+      name      = "ac.demo"
+		/>
+
+    <button
+			borderStyle="None" backColor="None" backImage="" text="Mirros Edge" width="300" height="28" x="10" y="210" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand"
+			tabStop		= "true"
+			tabIndex	= "3"
+      name      = "me.demo"
+		/>
+
+    <button
+			borderStyle="None" backColor="None" backImage="" text="Velvet Assassin" width="300" height="28" x="10" y="240" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand"
+			tabStop		= "true"
+			tabIndex	= "4"
+      name      = "va.demo"
+		/>
+
+    <button
+			borderStyle="None" backColor="None" backImage="" text="QUIT" width="300" height="28" x="10" y="270" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="quit"
+			tabStop		= "true"
+			tabIndex	= "5"
+		/>
+
+  </panel>
+
+</window>

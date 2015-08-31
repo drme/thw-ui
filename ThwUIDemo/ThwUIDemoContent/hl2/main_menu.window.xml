@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<window
+	moveable="false"
+	sizeable="false"
+	borderStyle="None"
+	backColor="White"
+	width="800"
+	height="600"
+	x="0"
+	y="0"
+	name="main_menu"
+  backImage="hl2/hl2_back"
+  backImageLayout="ImageLayoutStretch"
+>
+	<panel x="70" y="90" width="500" height="350" anchor="5" name="mainPanel" backColor="None">
+
+		<label anchor="7" text="H A L F  -  L I F E" width="500" height="70" x="0" y="0" font.bold="true" font.name="Arial Narrow" font.size="40" text.align="MiddleCenter" text.color="White"/>
+		<label name="subTitle" anchor="7" text="TESTING UNSTABLE" width="500" height="40" x="0" y="70" font.bold="true" font.name="Arial Narrow" font.size="20" text.align="MiddleCenter" text.color="#255,255,255,128"/>
+		<panel name="line1" backColor="White" opacity="0.5" width="100" height="3" x="0" y="90"/>
+		<panel name="line2" backColor="White" opacity="0.5" width="100" height="3" x="400" y="90"/>
+
+		<button
+			borderStyle="None"
+			backColor="None"
+			backImage=""
+			text="RESUME GAME"
+			width="300"
+			height="28"
+			x="10"
+			y="120"
+			font.bold="true"
+			font.name="Arial"
+			font.size="14"
+			text.align="MiddleLeft"
+			text.color="White"
+			cursor="PointerHand"
+			onClick="demo.resumeGame"
+			tabStop		= "true"
+			tabIndex	= "0"
+			clickSound	= "click"
+			focusSound	= "click"
+		/>
+
+		<button
+			borderStyle	= "None" backColor="None" backImage="" text="NEW GAME" width="300" height="28" x="10" y="150" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="thw.uiengine.loadWindow hl2/new_game.window.xml"
+			tabStop		= "true"
+			tabIndex	= "1"
+			clickSound	= "click"
+			focusSound	= "click"		
+		/>
+
+		<button
+			borderStyle="None" backColor="None" backImage="" text="LOAD GAME" width="300" height="28" x="10" y="180" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="thw.uiengine.loadWindow hl2/load_game.window.xml"
+			tabStop		= "true"
+			tabIndex	= "2"
+			clickSound	= "click"
+			focusSound	= "click"
+		/>
+
+		<button
+			borderStyle="None" backColor="None" backImage="" text="SAVE GAME" width="300" height="28" x="10" y="210" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="thw.uiengine.loadWindow hl2/save_game.window.xml"
+			tabStop		= "true"
+			tabIndex	= "3"
+			clickSound	= "click"
+			focusSound	= "click"
+		/>
+
+		<button
+			borderStyle="None" backColor="None" backImage="" text="OPTIONS"   width="300" height="28" x="10" y="240" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="thw.uiengine.loadWindow hl2/options.window.xml"
+			tabStop		= "true"
+			tabIndex	= "4"
+			clickSound	= "click"
+			focusSound	= "click"
+		/>
+
+		<button
+			borderStyle="None" backColor="None" backImage="" text="QUIT" width="300" height="28" x="10" y="270" font.bold="true" font.name="Arial" font.size="14" text.align="MiddleLeft" text.color="White" cursor="PointerHand" onClick="demo.close"
+			tabStop		= "true"
+			tabIndex	= "5"
+			clickSound	= "click"
+			focusSound	= "click"
+		/>
+
+	</panel>
+
+</window>

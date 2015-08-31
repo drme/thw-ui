@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<window name="" x="0" y="0" width="800" height="600" borderStyle="None" backImage="va/back" backImageLayout="ImageLayoutStretch" icon.selected="" moveable="False" sizeable="False" titleHeight="0" centerDesktop="true">
+	<label name="" x="-2" y="78" width="800" height="120" text="Velvet Assassin" font.name="Vivaldi" font.bold="True" font.italic="True" font.size="72" text.color="#255,#255,#255,#255" text.align="MiddleCenter" backImage="" icon="" icon.selected="" />
+	<button name="" x="180" y="235" width="440" height="28" text="Resume campaign" font.name="Calibri" font.bold="True" font.size="20" text.color="#255,#255,#255,#255" backColor="None" borderStyle="None" backImage="" icon="" icon.selected="" tabIndex="1" />
+	<button name="" x="180" y="265" width="440" height="28" text="Save game" font.name="Calibri" font.bold="True" font.size="20" text.color="#255,#255,#255,#255" backColor="None" borderStyle="None" backImage="" icon="" icon.selected="" tabIndex="2" />
+	<button name="" x="180" y="295" width="440" height="28" text="Options" font.name="Calibri" font.bold="True" font.size="20" text.color="#255,#255,#255,#255" backColor="None" borderStyle="None" backImage="" icon="" icon.selected="" tabIndex="3" />
+	<button name="" x="180" y="325" width="440" height="28" text="Exit" font.name="Calibri" font.bold="True" font.size="20" text.color="#255,#255,#255,#255" backColor="#0,#0,#0,#64" borderStyle="None" backImage="" icon="" icon.selected="" tabIndex="4" onClick="demo.close"/>
+	<label name="" x="167" y="489" width="474" height="29" text="Load the last saved checkpoint" font.name="Calibri" font.bold="True" font.size="14" text.color="#255,#255,#255,#255" text.align="MiddleCenter" backColor="#0,#0,#0,#64" backImage="" icon="" icon.selected="" />
+</window>

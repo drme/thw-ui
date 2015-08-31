@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<window
+	backColor		  = "Control"
+	height			  = "270"
+	minHeight		  = "270"
+	minWidth		  = "300"
+	text			    = "Gamma"
+	width			    = "300"
+	modal			    = "true"
+	centerDesktop = "true"
+	name			    = "gamma"
+  hasShadow     = "true"
+>
+	<label
+		anchor	= "7"
+		height	= "17"
+		text	= "Gamma"
+		width	= "280"
+		x		= "10"
+		y		= "10"
+	/>
+
+	<trackBar
+		name		= "trackBarGamma"
+		anchor		= "7"
+		font.size	= "7"
+		height		= "24"
+		maxText		= "Bright"
+		minText		= "Dark"
+		width		= "280"
+		x			= "10"
+		y			= "30"
+	/>
+
+	<panel
+		anchor		= "15"
+		backColor	= "Black"
+		borderStyle	= "Lowered"
+		height		= "110"
+		width		= "280"
+		x			= "10"
+		y			= "80"
+		font.size	= "15"
+		text		= "Slightly visible"
+		text.align	= "MiddleCenter"
+		text.color	= "#16,16,16,255"
+	>
+		<label
+			anchor		= "7"
+			font.size	= "15"
+			text		= "Barely visible"
+			text.align	= "TopCenter"
+			text.color	= "#8,8,8,255"
+			width		= "280"
+			x			= "0"
+			y			= "5"
+		/>
+
+		<label
+			anchor		= "11"
+			font.size	= "15"
+			height		= "26"
+			text		= "Clearly visible"
+			text.align	= "BottomCenter"
+			text.color	= "#24,24,24,255"
+			width		= "280"
+			x			= "0"
+			y			= "75"
+		/>
+	</panel>
+
+	<button
+		anchor			= "10"
+		height			= "24"
+		text			= "Cancel"
+		width			= "75"
+		x				= "215"
+		y				= "215"
+		dialogResult	= "cancel"
+	/>
+	
+	<button
+		anchor			= "10"
+		height			= "24"
+		text			= "Ok"
+		width			= "75"
+		x				= "135"
+		y				= "215"
+		dialogResult	= "ok"
+	/>
+</window>

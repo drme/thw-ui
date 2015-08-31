@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<font
+  name        = "Default"
+  charWidth   = "8"
+  charHeight  = "16"
+  texWidth    = "8"
+  texHeight   = "16"
+  texture     = "ui/fonts/default0"
+  rowWidth    = "16"
+  rowHeight   = "16"
+/>

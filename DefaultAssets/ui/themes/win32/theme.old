@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<theme name="Generic">
+  <menu
+    hasShadow="false"
+    hasTexturedBorder="true"
+    texturedBroder="ui/themes/win32/raised_double_"
+    backColor="Control"
+    hasPopUpBackImage="false"
+    popUpBackImage="ui/themes/osx/back_img"
+    hasBackImage="false"
+    backImage="ui/themes/osx/back_img"
+    hasIconPlacegolderImage="false"
+    selectionTransparency="1.0f"
+    hasSimpleMenu="true"
+  />
+
+</theme>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<window
+moveable="false"
+	sizeable="false"
+	borderStyle="None"
+	backColor="White"
+	width="800"
+	height="600"
+	x="0"
+	y="0"
+  backImage="ac/ac_back"
+  backImageLayout="ImageLayoutStretch"  
+  >
+	<acButton x="42" y="84" width="380" height="380" anchor="13" backImage="ac/ac_start" backImageLayout="ImageLayoutStretch"  text="Story Mode" font.name="Calibri" font.bold="True" font.size="21" text.color="Gray"  />
+	
+  <acButton x="432" y="84" width="320" height="110" anchor="15" backImage="ac/ac_btn2" backImageLayout="ImageLayoutStretch"  text="Additional content" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255"  />
+	
+  <acButton x="432" y="205" width="178" height="125" anchor="15" backImage="ac/ac_btn1" backImageLayout="ImageLayoutStretch" icon="#shell32,20" text="Uplay" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255" />
+	<acButton x="432" y="339" width="178" height="125" anchor="15" backImage="ac/ac_btn1" backImageLayout="ImageLayoutStretch" icon="#shell32,21" text="Options" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255" />
+	
+  <acButton x="623" y="205" width="129" height="125" anchor="15" backImage="ac/ac_btn1" backImageLayout="ImageLayoutStretch" icon="#shell32,22" text="Initiates" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255" />
+	<acButton x="623" y="339" width="129" height="125" anchor="15" backImage="ac/ac_btn1" backImageLayout="ImageLayoutStretch" icon="#shell32,23" text="Exit" font.name="Calibri" font.bold="True" font.size="21" text.color="#255,#255,#255,#255" onClick="demo.close"/>
+</window>

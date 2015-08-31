@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<theme name="me" skinned="true" defaultfont="Tahoma">
+
+  <colors
+		HighlightBorder		= "White"
+    Highlight         = "None"
+	/>
+  
+  <controls>
+
+    <control
+			control			    = "button"
+			imagesPrefix	  = "images/button_"
+			borderWidth		  = "2"
+			backColor		    = "Red"
+		/>
+
+  </controls>
+
+</theme>

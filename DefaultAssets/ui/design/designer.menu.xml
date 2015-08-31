@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<menu>
+	<item name="File" id="1" image="bbd" >
+		<item name="New" id="11" />
+		<item/>
+		<item name="Open..." id="13" />
+		<item name="Save" id="14" />
+		<item name="Save as..." id="15" />
+		<item/>
+		<item name="Exit" id="16" />
+	</item>
+</menu>
