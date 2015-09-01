@@ -65,7 +65,3 @@ User interface supports internalization. Thus text messages can be changed accor
 ![Half-Life 2 sample image](/readme/hl2.png?raw=true "Half-Life 2 sample image")
 ![Mirrors Edge sample image](/readme/me.png?raw=true "Mirrors Edge sample image")
 ![Velvet Assassin sample image](/readme/va.png?raw=true "Velvet Assassin sample image")
-
-# Licensing
-Library is provided using BSD license. If other type license is required feel free to contact library maintainer sarunas@ieee.org
-
